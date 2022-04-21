@@ -2,7 +2,7 @@
 Converts given Address to Geo Coordinates of Latitude and Longitude
 
 
-[ Running the Application on Linux O.S: ]
+[ Running the Application on Linux O.S ]
 
 1. Clone the application on your device.
 
@@ -18,3 +18,6 @@ Converts given Address to Geo Coordinates of Latitude and Longitude
 
 7. To start the Application execute run.sh file: ./run.sh
 
+[ Running the Application on Docker ]
+
+# Still pending - Uploading soon
