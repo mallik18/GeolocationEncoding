@@ -1,13 +1,12 @@
 """ python modules """
 import os
+import logging
 import requests
 import uvicorn
-import logging
 
 from fastapi import FastAPI
 from fastapi import Request
 from fastapi.responses import Response, JSONResponse, RedirectResponse
-from pydantic import ValidationError
 
 
 API_KEY = os.environ.get('GEO_API_KEY')
@@ -63,7 +62,7 @@ async def convertaddresstocoordinates(request: Request):
 
         # url encoding
         request_url = base_url + 'address=' + address_data + '&key=' + API_KEY
-        
+
         # requesting the result
         res = requests.get(str(request_url)).json()
 
@@ -92,7 +91,7 @@ async def convertaddresstocoordinates(request: Request):
             content=data,
             media_type="application/xml",
             status_code=200)
-    
+
     except Exception as err:
         logging.error(err)
         return Response(err)
