@@ -19,5 +19,5 @@ Converts given Address to Geo Coordinates of Latitude and Longitude
 7. To start the Application execute run.sh file: ./run.sh
 
 [ Running the Application on Docker ]
-
-# Still pending - Uploading soon
+ 
+ Still pending - Uploading soon
