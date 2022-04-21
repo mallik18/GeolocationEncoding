@@ -16,11 +16,3 @@ Converts given Address to Geo Coordinates of Latitude and Longitude
 
 6. To start the Application execute run.sh file: ./run.sh
 
-[ Running the Application using Docker: ]
-
-1. Clone the application on your device.
-
-2. Give permission to run.sh file: chmod +x dockerrun.sh
- 
-3. To start the Application execute dockerrun,sh file: ./dockerrun.sh
-
