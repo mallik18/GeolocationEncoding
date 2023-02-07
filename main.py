@@ -2,7 +2,6 @@
 import os
 import logging
 import requests
-import uvicorn
 
 from fastapi import FastAPI
 from fastapi import Request
